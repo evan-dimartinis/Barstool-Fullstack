@@ -21,3 +21,4 @@ For the sake of time, this project is very simple and would need various enhance
 1. Server Security
 2. A uniform styling scheme
 3. More efficient data-calling using better data models for specific UX components
+4. Better error-handling
