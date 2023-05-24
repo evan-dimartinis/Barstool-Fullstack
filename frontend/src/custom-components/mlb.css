@@ -1,0 +1,161 @@
+.mlb-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.title-text {
+    font-size: 5vh;
+}
+
+.home-text {
+    color: #BA0021;
+}
+
+.away-text {
+    color: #0C2C56;
+}
+
+.matchup-div {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    justify-content: space-around;
+}
+
+.stats-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.home-stats {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 10px;
+}
+
+.pitching-container {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 5px;
+    border: solid 1px white;
+}
+
+.pitching-header {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 5vh;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: white;
+}
+
+.pitching-header:hover {
+    cursor: pointer;
+}
+
+.pitching-div {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    overflow: scroll;
+    transition: .5s ease-out;
+}
+
+.divOpen {
+    height: 30vh
+}
+
+.divClose {
+    height: 0vh;
+}
+
+.battingOpen {
+    height: 50vh;
+}
+
+@keyframes openDiv {
+    from {
+        height: 0vh;
+    }
+    to {
+        height: 30vh;
+    }
+}
+
+@keyframes closeDiv {
+    from {
+        height: 30vh;
+    }
+    to {
+        height: 0vh;
+    }
+}
+
+td {
+    color: #36454F;
+    background-color: #e2e2e2;
+    width: 3vw;
+}
+
+.header-row {
+    background-color: white;
+}
+
+/* th {
+    
+} */
+
+.home {
+    background-color: #BA0021;
+}
+
+.away {
+    background-color: #0C2C56;
+}
+
+.header-box-row {
+    background-color: rgb(190, 190, 190);
+    font-weight: bolder;
+}
+
+.batting-header-row {
+    background-color: white;
+}
+
+.sum {
+    font-weight: bold;
+}
+
+.team-name {
+    color: white;
+}
+
+.box-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.nba-player-row td {
+    color: white;
+    background-color: rgb(120, 120, 120);
+    border-bottom: 1px solid black;
+}
+
+.nba-quarters td {
+    border: 1px solid black;
+}
+
+.nba-player-table {
+  border: 1px solid black;
+}
